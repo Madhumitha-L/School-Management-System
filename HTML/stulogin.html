@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost/Pet/CSS/login.css">
+    <title>LOGIN</title>   
+</head>
+<body>
+   <!-- nav  -->
+
+   <nav>
+       <div class="side"></div>
+       <div class="mid">SCHOOL MANAGEMENT</div>
+       <div class="side"></div>
+   </nav>
+
+   <!-- main  -->
+
+   <div id="main">
+       <div id="img"> <img src="http://localhost/Pet/good-secondary-school.jpg" alt="img1"> </div>
+       <div>&nbsp;</div>
+       <div id="box">
+           <div> <h2>STUDENT LOGIN</h2></div>
+          <div><form action="http://localhost/Pet/PHP/stulogin.php" method="post">
+               <label>Student Id</label> <input type="text" pattern="[0-9]{5}" name="id" required> <br>
+               <label>Password</label><input type="password" name="pass" required> <br>
+               <center> <input type="submit" value="LOGIN" name="login" ></center>
+           </form></div> 
+          <div><h4>Don't have an account ? <a href="http://localhost/Pet/HTML/signup.html">Signup</a></h4></div> 
+       </div>
+   </div>
+
+</body>
+</html>

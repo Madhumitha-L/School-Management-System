@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost/Pet/CSS/signup.css">
+    <title>SIGNUP</title>   
+</head>
+<body>
+   <!-- nav  -->
+
+   <nav>
+       <div class="side"></div>
+       <div class="mid">SCHOOL MANAGEMENT</div>
+       <div class="side"></div>
+   </nav>
+
+   <!-- main  -->
+
+   <div id="main" class="sign">
+       <div id="img"> <img src="http://localhost/Pet/good-secondary-school.jpg" alt="img1"> </div>
+       <div>&nbsp;</div>
+       <div id="box">
+           <div> <h2>STUDENT SIGN UP</h2></div>
+          <div><form action="http://localhost/Pet/PHP/stusign.php" method="post">
+               <label>Name</label> <input type="text" name="name" required> <br>
+               <label>DOB</label> <input type="text" name="dob" required> <br>
+               <label>Class</label> <input type="text" name="class" required> <br>
+               <label>Contact</label> <input type="text" name="contact" required> <br>
+               <label>Student ID</label> <input type="text" name="id" pattern="[0-9]{5}" required> <br>
+               <label>Password</label><input type="password" name="password" required> <br>
+               <center> <input type="submit" value="CREATE" name="submit" ></center>
+           </form></div> 
+          <div></div> 
+       </div>
+   </div>
+
+</body>
+</html>

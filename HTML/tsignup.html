@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost/Pet/CSS/signup.css">
+    <title>SIGNUP</title>   
+</head>
+<body>
+   <!-- nav  -->
+
+   <nav>
+       <div class="side"></div>
+       <div class="mid">SCHOOL MANAGEMENT</div>
+       <div class="side"></div>
+   </nav>
+
+   <!-- main  -->
+
+   <div id="main" class="sign">
+       <div id="img"> <img src="http://localhost/Pet/good-secondary-school.jpg" alt="img1"> </div>
+       <div>&nbsp;</div>
+       <div id="box">
+           <div> <h2>TEACHER SIGN UP</h2></div>
+          <div><form action="http://localhost/Pet/PHP/tsighup.php" method="post">
+               <label>Name</label> <input type="text" name="name" required> <br>
+               <label>Class</label> <input type="text" name="class" required> <br>
+               <label>Subject</label> <input type="text" name="sub" required> <br>
+               <label>Teacher ID</label> <input type="text" name="id" pattern="[0-9]{5}" required> <br>
+               <label>Password</label><input type="password" name="pass" required> <br>
+               <center> <input type="submit" name="submit" value="CREATE" ></center>
+           </form></div> 
+          <div></div> 
+       </div>
+   </div>
+
+</body>
+</html>
